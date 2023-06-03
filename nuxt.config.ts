@@ -6,7 +6,7 @@ export default defineNuxtConfig({
 			autoprefixer: {},
 		},
 	},
-	modules: ["@nuxtjs/tailwindcss", ],
+	modules: ["@nuxtjs/tailwindcss", '@element-plus/nuxt' ],
 	app: {
 		head: {
 			title: "FakeStore",
