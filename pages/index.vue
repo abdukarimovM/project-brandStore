@@ -13,7 +13,7 @@ import RecommendedLinks from "../const/recommend";
   <Header2 />
   <hr />
 
-  <main class="bg-[#eff6ff] h-[5000px]">
+  <main class="bg-[#eff6ff] h-full">
     <div class="container mx-auto pt-[20px]">
       <!-- //////////////////////////////////////////// -->
       <div class="flex bg-white pt-[20px] pb-[20px] gap-[27px] rounded-[6px]">
@@ -222,11 +222,14 @@ import RecommendedLinks from "../const/recommend";
             >
               Quantity
             </p>
-            <p
-              class="ml-[10px] rounded-[6px] mt-[25px] border text-[20px] w-[140px] pl-[12px] flex items-center h-[50px]"
+            <select
+              class="outline-none mt-[25px] bg-transparent rounded-[6px] border text-[20px] w-[100px] focus:border-[#127FFF] ml-[10px] h-[50px]"
             >
-              Pcs<img class="ml-[60px]" src="../public/icons/str.png" alt="" />
-            </p>
+              <option>Pcs</option>
+              <option>Pcs</option>
+              <option>Pcs</option>
+              <option>Pcs</option>
+            </select>
           </div>
           <button
             class="bg-[#127FFF] text-white w-[170px] text-[20px] h-[50px] mt-[30px] rounded-[6px]"
@@ -356,6 +359,8 @@ import RecommendedLinks from "../const/recommend";
       </div>
       <!-- //////////////////////////////////////////// -->
     </div>
+    <Footer2 />
+    <Footer />
   </main>
 </template>
 

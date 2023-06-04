@@ -8,24 +8,25 @@
         <p>Gift boxes</p>
         <p>Projects</p>
         <p>Menu item</p>
-        <p class="flex items-center">
-          Help
-          <img class="ml-[7px] w-[12px] h-[8px]" src="../public/icons/str.png" alt="" />
-        </p>
+        <select class="outline-none bg-transparent">
+          <option>Help</option>
+          <option>Help</option>
+          <option>Help</option>
+          <option>Help</option>
+        </select>
       </div>
       <div class="text-[18px] flex gap-[32px]">
-        <p class="flex items-center gap-[8px]">
-          English, USD<img
-            class="w-[12px] h-[8px]"
-            src="../public/icons/str.png"
-            alt=""
-          />
-        </p>
-        <p class="flex items-center gap-[6px]">
-          Ship to
-          <img class="w-[24px] h-[18px]" src="../public/icons/german.svg" alt="" />
-          <img class="ml-[9px] w-[12px] h-[8px]" src="../public/icons/str.png" alt="" />
-        </p>
+        <select class="outline-none bg-transparent mr-[10px]">
+          <option>English, USD</option>
+          <option>Uzbek, Uzs</option>
+          <option>Russia, Rub</option>
+        </select>
+        <select class="outline-none bg-transparent">
+          <option>Ship toㅤ🇩🇪</option>
+          <option>Ship toㅤ🇺🇿</option>
+          <option>Ship toㅤ🇺🇸</option>
+          <option>Ship toㅤ🇨🇳</option>
+        </select>
       </div>
     </nav>
   </div>
