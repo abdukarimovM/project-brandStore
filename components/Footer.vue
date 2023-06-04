@@ -56,7 +56,6 @@
         <div class="flex items-center h-[80px] w-full justify-between">
           <p class="text-[18px] text-[#606060]">© 2023 Ecommerce.</p>
           <div class="flex items-center">
-            <!-- <img class="w-[42px] h-[30px]" src="../public/icons/us.svg" alt="" /> -->
             <select
               class="border-none h-[50px] bg-[#EFF2F4] w-[130px] py-3 text-black text-[22px] leading-tight focus:outline-none"
               name="select"

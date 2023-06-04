@@ -1,10 +1,5 @@
 <template>
-  <Header />
-  <hr />
-  <Header2 />
-  <hr />
-
-  <main class="bg-[#eff6ff] h-[5000px]">
+  <section class="bg-[#eff6ff] h-full">
     <div class="container mx-auto">
       <!-- ///////////////// -->
       <div class="flex gap-[10px] text-[#8B96A5] text-[20px] pt-[25px]">
@@ -18,7 +13,9 @@
       </div>
       <!-- ///////////////// -->
       <div class="flex mt-[20px] w-full">
-        <div class="bg-red-400 w-[400px] h-[100px]"></div>
+        <div class="w-[400px]">
+          <Sidebar />
+        </div>
         <div class="ml-[30px] w-full">
           <!-- ///////// -->
           <div
@@ -26,15 +23,19 @@
           >
             <h1>12,911 items in <strong>Mobile accessory</strong></h1>
             <div class="flex items-center">
-              <p
-                class="mr-[13px] w-[25px] h-[25px] border border-[3px] rounded-[5px] border-[#BDBDBD]"
-              ></p>
+              <input
+                class="mr-[13px] w-[20px] h-[20px] border border-[3px] rounded-[6px] border-[#DEE2E7]"
+                type="checkbox"
+              />
               <p>Verified only</p>
-              <button
-                class="ml-[20px] mr-[13px] flex items-center justify-between border w-[180px] h-[42px] rounded-[6px] pr-[16px] pl-[10px]"
+              <select
+                class="outline-none bg-transparent ml-[20px] mr-[13px] flex items-center justify-between border w-[180px] h-[42px] rounded-[6px] pr-[16px] pl-[10px]"
               >
-                Featured <img src="../../public/icons/str.png" alt="" />
-              </button>
+                <option>Featured</option>
+                <option>Featured</option>
+                <option>Featured</option>
+                <option>Featured</option>
+              </select>
               <p
                 class="rounded-l-[6px] bg-[#DEE2E7] flex items-center border justify-center h-[42px] w-[40px]"
               >
@@ -72,7 +73,7 @@
             </p>
           </div>
           <!-- //////// -->
-          <div class="flex w-full mt-[20px] gap-[30px]">
+          <div class="flex w-full mt-[20px] gap-[30px] mb-[200px]">
             <!-- ///// -->
             <div class="w-[810px] flex grid grid-cols-2 gap-[30px]">
               <div class="w-full bg-white rounded-[6px]" v-for="el in MobileLinks">
@@ -143,7 +144,7 @@
         </div>
       </div>
     </div>
-  </main>
+  </section>
 </template>
 
 <script setup>

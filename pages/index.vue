@@ -8,12 +8,7 @@ import RecommendedLinks from "../const/recommend";
 </script>
 
 <template>
-  <Header />
-  <hr />
-  <Header2 />
-  <hr />
-
-  <main class="bg-[#eff6ff] h-full">
+  <section class="bg-[#eff6ff] h-full">
     <div class="container mx-auto pt-[20px]">
       <!-- //////////////////////////////////////////// -->
       <div class="flex bg-white pt-[20px] pb-[20px] gap-[27px] rounded-[6px]">
@@ -342,7 +337,7 @@ import RecommendedLinks from "../const/recommend";
       <!-- //////////////////////////////////////////// -->
 
       <!-- //////////////////////////////////////////// -->
-      <div class="mt-[30px]">
+      <div class="mt-[30px] pb-[50px]">
         <h1 class="text-[28px] font-semibold">Suppliers by region</h1>
         <div>
           <div class="grid grid-cols-5 mt-[10px]">
@@ -359,9 +354,7 @@ import RecommendedLinks from "../const/recommend";
       </div>
       <!-- //////////////////////////////////////////// -->
     </div>
-    <Footer2 />
-    <Footer />
-  </main>
+  </section>
 </template>
 
 <style scoped></style>

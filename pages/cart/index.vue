@@ -1,6 +1,5 @@
 <template>
-  <Header />
-  <main class="bg-[#eff6ff] h-[5000px] pt-[30px]">
+  <main class="bg-[#eff6ff] h-full pt-[30px]">
     <div class="container mx-auto">
       <div class="flex gap-[30px]">
         <!-- ///////// -->
@@ -32,8 +31,15 @@
                     </p>
                   </div>
                   <div class="font-medium text-[20px] mr-[30px]">
-                    <p>$78.99</p>
-                    <button>Qty: 9</button>
+                    <p class="ml-[86px]">$78.99</p>
+                    <select
+                      class="outline-none bg-transparent w-[150px] border mt-[20px] h-[45px] rounded-[6px]"
+                    >
+                      <option>Qty: 9</option>
+                      <option>Qty: 9</option>
+                      <option>Qty: 9</option>
+                      <option>Qty: 9</option>
+                    </select>
                   </div>
                 </div>
                 <div class="mt-[40px] font-medium mb-[20px]">
@@ -73,8 +79,15 @@
                     </p>
                   </div>
                   <div class="font-medium text-[20px] mr-[30px]">
-                    <p>$78.99</p>
-                    <button>Qty: 9</button>
+                    <p class="ml-[86px]">$39.00</p>
+                    <select
+                      class="outline-none bg-transparent w-[150px] border mt-[20px] h-[45px] rounded-[6px]"
+                    >
+                      <option>Qty: 3</option>
+                      <option>Qty: 3</option>
+                      <option>Qty: 3</option>
+                      <option>Qty: 3</option>
+                    </select>
                   </div>
                 </div>
                 <div class="mt-[40px] font-medium mb-[20px]">
@@ -114,8 +127,15 @@
                     </p>
                   </div>
                   <div class="font-medium text-[20px] mr-[30px]">
-                    <p>$78.99</p>
-                    <button>Qty: 9</button>
+                    <p class="ml-[76px]">$170.50</p>
+                    <select
+                      class="outline-none bg-transparent w-[150px] border mt-[20px] h-[45px] rounded-[6px]"
+                    >
+                      <option>Qty: 1</option>
+                      <option>Qty: 1</option>
+                      <option>Qty: 1</option>
+                      <option>Qty: 1</option>
+                    </select>
                   </div>
                 </div>
                 <div class="mt-[40px] font-medium mb-[20px]">
@@ -137,7 +157,9 @@
               <button
                 class="pl-[15px] gap-[20px] text-white bg-[#127FFF] flex items-center text-[18px] rounded-[6px] h-[50px] w-[180px]"
               >
-                <img src="../../public/icons/back.svg" alt="" />Back to shop
+                <NuxtLink to="/" class="flex gap-[20px]">
+                  <img src="../../public/icons/back.svg" alt="" />Back to shop
+                </NuxtLink>
               </button>
               <button
                 class="justify-center flex items-center text-[18px] rounded-[6px] h-[50px] w-[150px] border text-[#0D6EFD]"
@@ -158,14 +180,22 @@
               </div>
             </div>
             <div class="flex mt-[30px]">
-              <img class="w-[68px] h-[68px]" src="../../public/images/qulf.png" alt="" />
+              <img
+                class="w-[68px] h-[68px]"
+                src="../../public/images/message2.png"
+                alt=""
+              />
               <div class="text-[20px] flex flex-col justify-center ml-[15px]">
                 <h1 class="text-[#1C1C1C]">Secure payment</h1>
                 <p class="text-[#A9ACB0]">Have you ever finally just</p>
               </div>
             </div>
             <div class="flex mt-[30px]">
-              <img class="w-[68px] h-[68px]" src="../../public/images/qulf.png" alt="" />
+              <img
+                class="w-[68px] h-[68px]"
+                src="../../public/images/delivery.png  "
+                alt=""
+              />
               <div class="text-[20px] flex flex-col justify-center ml-[15px]">
                 <h1 class="text-[#1C1C1C]">Secure payment</h1>
                 <p class="text-[#A9ACB0]">Have you ever finally just</p>
@@ -275,7 +305,7 @@
         </div>
       </div>
       <!--  -->
-      <div class="mt-[30px] w-full">
+      <div class="mt-[30px] w-full pb-[50px]">
         <div class="w-full">
           <img
             class="absolute w-[1538px] h-[170px]"
@@ -288,7 +318,9 @@
             alt=""
           />
         </div>
-        <div class="flex justify-between items-center h-[120px] text-white pt-[20px]">
+        <div
+          class="flex justify-between items-center h-[120px] text-white pt-[20px] mb-[50px]"
+        >
           <div class="flex items-center ml-[40px]">
             <h1 class="absolute text-[28px] font-medium">
               Super discount on more than 100 USD
@@ -311,6 +343,9 @@
 
 <script setup>
 import SavedLinks from "../../const/saved";
+definePageMeta({
+  layout: "cart",
+});
 </script>
 
 <style lang="scss" scoped></style>
