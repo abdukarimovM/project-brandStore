@@ -1,7 +1,7 @@
 const Mobile2_Links = [
     {
         id: 1,
-        img: "home-phone.png",
+        img: "home-phone-3.png",
         price: "price.svg",
         rating: "rating75.svg",
         desc: "GoPro HERO6 4K Action Camera - Black"

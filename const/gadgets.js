@@ -3,13 +3,13 @@ const GadgetsLink = [
       id: 1,
       title: "Smart watches",
       price: 19,
-      img: "home-iwatch.png",
+      img: "iwatch-3.png",
     },
     {
       id: 2,
       title: "Cameras",
       price: 89,
-      img: "home-camera.png",
+      img: "camera-3.png",
     },
     {
       id: 3,
@@ -27,13 +27,13 @@ const GadgetsLink = [
       id: 5,
       title: "Gaming set",
       price: 35,
-      img: "home-nik.png",
+      img: "nauwnik-3.png",
     },
     {
       id: 6,
       title: "Laptops & PC",
       price: 340,
-      img: "home-laptop.png",
+      img: "laptop-3.png",
     },
     {
       id: 7,

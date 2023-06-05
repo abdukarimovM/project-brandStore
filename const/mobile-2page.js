@@ -22,21 +22,21 @@ const MobileLinks = [
     },
     {
         id: 4,
-        img: "home-camera.png",
+        img: "camera-3.png",
         price: "ceg-price.svg",
         rating: "rating75.svg",
         desc: "GoPro HERO6 4K Action Camera - Black"
     },
     {
         id: 5,
-        img: "home-laptop.png",
+        img: "laptop-3.png",
         price: "ceg-price.svg",
         rating: "rating75.svg",
         desc: "GoPro HERO6 4K Action Camera - Black"
     },
     {
         id: 6,
-        img: "home-iwatch.png",
+        img: "iwatch-3.png",
         price: "ceg-price.svg",
         rating: "rating75.svg",
         desc: "GoPro HERO6 4K Action Camera - Black"

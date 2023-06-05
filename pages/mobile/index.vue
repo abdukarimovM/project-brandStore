@@ -73,7 +73,7 @@
             </p>
           </div>
           <!-- //////// -->
-          <div class="flex w-full mt-[20px] gap-[30px] mb-[200px]">
+          <div class="flex w-full mt-[20px] gap-[30px]">
             <!-- ///// -->
             <div class="w-[810px] flex grid grid-cols-2 gap-[30px]">
               <div class="w-full bg-white rounded-[6px]" v-for="el in MobileLinks">
@@ -136,9 +136,37 @@
           </div>
           <!-- ///////////// -->
 
-          <div>
-            <div>
-              <button></button>
+          <div class="mt-[15px]">
+            <div class="flex justify-end gap-5 py-5 mb-[160px]">
+              <div
+                class="bg-white px-2 py-2 border border-gray-300 rounded-lg text-[18px] w-[150px]"
+              >
+                <select class="cursor-pointer bg-white outline-none pr-5 text-gray-800">
+                  <option>Show 10</option>
+                  <option>Show 10</option>
+                  <option>Show 10</option>
+                </select>
+              </div>
+              <ul
+                class="flex items-center gap-0 border border-gray-300 rounded-lg text-[18px]"
+              >
+                <li
+                  class="px-2 p-1 bg-white hover:bg-gray-100 cursor-pointer border-r rounded-l-lg"
+                >
+                  <i class="bx bx-chevron-left text-2xl"></i>
+                </li>
+                <li
+                  v-for="i in 3"
+                  class="p-2 px-4 bg-white hover:bg-gray-100 cursor-pointer border-r"
+                >
+                  {{ i }}
+                </li>
+                <li
+                  class="px-2 p-1 bg-white hover:bg-gray-100 cursor-pointer border-r rounded-r-lg"
+                >
+                  <i class="bx bx-chevron-right text-2xl"></i>
+                </li>
+              </ul>
             </div>
           </div>
         </div>
