@@ -1,6 +1,6 @@
 <template>
   <footer>
-    <div class="container mx-auto">
+    <div class="container mx-auto hidden 2xl:block">
       <!-- ////// -->
       <div class="mt-[50px] flex mb-[60px]">
         <div class="">
@@ -51,7 +51,7 @@
       </div>
       <!-- //////// -->
     </div>
-    <div class="h-[80px] w-full bg-[#EFF2F4]">
+    <div class="h-[80px] w-full bg-[#EFF2F4] hidden 2xl:block">
       <div class="container mx-auto">
         <div class="flex items-center h-[80px] w-full justify-between">
           <p class="text-[18px] text-[#606060]">© 2023 Ecommerce.</p>
