@@ -61,9 +61,7 @@
               name="select"
               id="select"
             >
-              <option value="1">
-                🇺🇸English <img class="h-6" src="../public/images/usa.png" alt="" />
-              </option>
+              <option value="1">🇺🇸English</option>
               <option value="2">🇺🇿Uzbek <img src="" alt="" /></option>
               <option value="3">🇷🇺Russian</option>
               <option value="2">🇨🇳Chinese</option>
